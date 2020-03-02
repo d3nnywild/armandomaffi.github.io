@@ -415,4 +415,20 @@ section p {
 	.footer-titles li{
 		display: none;
 	}
+
+	.footer-titles h2 {
+		font-size: 15px;
+	}
+	
+	.footer-info li {
+		font-size: 15px;
+	}
+
+	.footer-titles li {
+		font-size: 15px;
+	}
+
+	.footer-info {
+		padding: 20px 20px;
+	}
 }
