@@ -336,7 +336,7 @@ section p {
 
 @media only screen and (max-width: 1000px) {
 	.container {
-		width: calc(100% - 20px);
+		width: calc(100%);
 	}
 	
 	section {
@@ -408,7 +408,8 @@ section p {
 
 @media only screen and (max-width: 1000px) {
 	.footer-container{
-		width: calc(100% - 40px);
+		width: calc(100%);
+		margin-top: 0px;
 	}
 
 	.footer-titles li{
