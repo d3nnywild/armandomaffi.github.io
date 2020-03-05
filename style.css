@@ -298,10 +298,32 @@ section h2 {
 section p {
 	font-family: Roboto;
 	text-align: justify;
-	width: 980px;
+	width: 950px;
 	margin: 0 auto;
-	padding-top: 30px;
+	padding-top: 20px;
 	position: relative;
+	line-height: 25px;
+}
+
+.title-credits {
+	font-style: oblique;
+	font-weight: 100;
+	font-size: 18px;
+	font-family: Garamond;
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 20px;
+	height: fit-content;
+}
+
+.p-credits {
+	font-style: oblique;
+	font-weight: 100;
+	font-size: 12px;
+	font-family: Garamond;
+	text-align: right;
+	margin-right: 25px;
+	height: fit-content;
 }
 
 .section-image {								/* == parallax == */
@@ -311,7 +333,7 @@ section p {
 
 .section-image h2 {
 	color: #fff;
-	font-size: 20px;
+	font-size: 16px;
 	z-index: 2;
 	position: relative;
 	padding: 5px 0 0 10px;
@@ -337,6 +359,7 @@ section p {
 @media only screen and (max-width: 1000px) {
 	.container {
 		width: calc(100%);
+		height: auto;
 	}
 	
 	section {
@@ -346,7 +369,7 @@ section p {
 	}
 	
 	section p {
-		width: calc(100% - 60px);
+		width: calc(100% - 40px);
 	}
 	
 	section h2 {
@@ -410,6 +433,7 @@ section p {
 	.footer-container{
 		width: calc(100%);
 		margin-top: 0px;
+		height: 200px;
 	}
 
 	.footer-titles li{
@@ -417,18 +441,10 @@ section p {
 	}
 
 	.footer-titles h2 {
-		font-size: 15px;
+		display: none;
 	}
 	
 	.footer-info li {
 		font-size: 15px;
-	}
-
-	.footer-titles li {
-		font-size: 15px;
-	}
-
-	.footer-info {
-		padding: 20px 20px;
 	}
 }
