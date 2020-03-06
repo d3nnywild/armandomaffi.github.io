@@ -283,7 +283,7 @@
   /*Main*/
   .container {
 	  width: 1000px;
-	  height: 1050px;
+	  height: auto;
 	  background-color: #f5f5f5;
 	  margin: 0 auto;
   }
@@ -331,6 +331,7 @@
 	  text-align: right;
 	  margin-right: 25px;
 	  height: fit-content;
+	  padding-bottom: 50px;
   }
   
   .section-image {								/* == parallax == */
